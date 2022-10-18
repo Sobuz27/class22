@@ -1,0 +1,142 @@
+
+img{
+    max-width: 100%;
+}
+.logo img{
+    width: 100px;
+}
+
+.jon-menu li {
+    padding: 0px 8px;
+}
+.about_area{
+    background-color: #f9f9ff;
+    
+}.about{
+    padding: 100px 0px;
+    
+}
+.about_button{
+    background-color: #8490ff;
+    font-weight: 600;
+     color: #fff;
+}
+.about_button:hover{
+    border: 1px solid #8490ff;
+    color: #8490ff;
+}
+.about_area2{
+    padding: 50px 0px;
+}
+.about-2 {
+    padding: 50px 0px;
+}
+
+.rating{
+     background-color: #8490ff;
+     padding: 80px 0px;
+}
+.service_area{
+    padding: 60px 0px;
+    background-color: #f9f9ff;
+}
+.service_item {
+    background-color: #fff;
+    padding: 10px 50px;
+    box-shadow: 0px 0px 20px 0px #f0f1fc;
+}
+.service_icon {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #f9f9ff;
+    text-align: center;
+    line-height: 100px;
+}
+.service_text{
+    line-height: 60px;
+}
+
+.teem_img{
+
+}
+.teem_img img {
+    width: 100px;
+    position: relative;
+    top: 50px;
+    left: 0;
+}
+.teem_contant {}
+.teem_contant p {
+    font-size: 13px;
+}
+.teem_contant a{
+    text-decoration: none;
+    color: #000;
+    transition: .5s;
+}
+
+.teem_contant:hover a{
+    background-color: #8490ff;
+    color: #fff;
+    border-radius: 5px;
+}
+.contact_form{
+    background-color: #f9f9ff;
+}
+
+textarea{
+    height: 150px;
+}
+.contact_button{
+    background-color: #17a2b8;
+}
+.address{
+    padding-top: 50px;
+} 
+/* footer  */
+footer{
+    background-color: #04091e;
+    padding: 20px 0px;
+}
+
+
+
+/* responsive  */
+@media all and (max-width:991px){
+    .about {
+        padding: 80px 0px;
+    }
+    .about-2 {
+        padding: 30px 0px;
+    }
+}
+@media all and (max-width:767px){
+    img {
+        max-width: 80%;
+    }
+    h2.h1.my-4 {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    button.btn.btn-outline-primary.btn-lg.mt-4.mb-3 {
+        font-size: 15px;
+    }
+    .address {
+        padding-top: 25px;
+    }
+}
+@media all and (max-width:575px){
+    .service_item {
+        margin-bottom: 20px;
+    }
+    .teem_contant.shadow.text-center.py-5.px-5 {
+        margin-bottom: 30px;
+    }
+    button.p-2.mt-4.contact_button.text-center.btn {
+        font-size: 13px;
+    }
+}
